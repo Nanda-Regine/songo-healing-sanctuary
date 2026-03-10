@@ -4,36 +4,32 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Primary SEO -->
 <title>Songo Healing Sanctuary | Traditional Healer &amp; Massage – East London, South Africa</title>
 <meta name="description" content="Experience profound healing with Linda Mona at Songo Healing Sanctuary, East London. Traditional healing massage from R350, card readings &amp; spiritual consultations. Book online &amp; pay securely via PayFast.">
-<meta name="keywords" content="healing sanctuary East London, traditional healer Eastern Cape, massage therapy East London, Linda Mona healer, card reading East London, spiritual healing South Africa, healing massage Eastern Cape, PayFast booking spa">
+<meta name="keywords" content="healing sanctuary East London, traditional healer Eastern Cape, massage therapy East London, Linda Mona healer, card reading East London, spiritual healing South Africa">
 <meta name="author" content="Linda Mona – Songo Healing Sanctuary">
 <meta name="robots" content="index, follow">
 <meta name="geo.region" content="ZA-EC">
 <meta name="geo.placename" content="East London, Eastern Cape, South Africa">
 <link rel="canonical" href="https://www.songohealingsanctuary.co.za/">
 
-<!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.songohealingsanctuary.co.za/">
 <meta property="og:title" content="Songo Healing Sanctuary | Traditional Healer – East London, SA">
-<meta property="og:description" content="Sacred healing massages, card readings &amp; spiritual consultations with Linda Mona in East London. Book online – secure payments via PayFast.">
+<meta property="og:description" content="Sacred healing massages, card readings &amp; spiritual consultations with Linda Mona. Book online – payments via PayFast.">
 <meta property="og:locale" content="en_ZA">
 <meta property="og:site_name" content="Songo Healing Sanctuary">
 
-<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Songo Healing Sanctuary | East London, South Africa">
-<meta name="twitter:description" content="Healing massage, card readings &amp; spiritual consultations with Linda Mona. Book online &amp; pay via PayFast.">
+<meta name="twitter:description" content="Healing massage, card readings &amp; spiritual consultations with Linda Mona. Book online today.">
 
-<!-- Schema.org Structured Data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "HealthAndBeautyBusiness",
   "name": "Songo Healing Sanctuary",
-  "description": "Traditional healing sanctuary offering healing massages, card readings and spiritual consultations in East London, South Africa, led by gifted healer Linda Mona.",
+  "description": "Traditional healing sanctuary offering healing massages, card readings and spiritual consultations in East London, South Africa.",
   "url": "https://www.songohealingsanctuary.co.za/",
   "telephone": "+27659909742",
   "email": "lindamona1@gmail.com",
@@ -43,17 +39,14 @@
     "addressRegion": "Eastern Cape",
     "addressCountry": "ZA"
   },
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-      "opens": "08:00",
-      "closes": "18:00"
-    }
-  ],
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "08:00", "closes": "18:00"
+  }],
   "priceRange": "R250–R500",
   "currenciesAccepted": "ZAR",
-  "paymentAccepted": "PayFast, Credit Card, EFT",
+  "paymentAccepted": "PayFast, Credit Card",
   "founder": { "@type": "Person", "name": "Linda Mona" },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -68,147 +61,82 @@
 }
 </script>
 
-<!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
 
 <style>
+/* ═══════════════════════════════════════
+   PALETTE: Maroon · Beige · Gold · Cream
+   ═══════════════════════════════════════ */
 :root {
-  --gold: #C9A84C;
-  --gold-light: #E8C96B;
-  --gold-pale: #F5E6B8;
-  --black: #0A0806;
-  --charcoal: #1C1810;
-  --charcoal2: #241e14;
-  --beige: #F0E6D3;
-  --beige-dark: #D4C4A8;
-  --cream: #FAF5EC;
-  --leo-tan: #C8A060;
-  --leo-dark: #3D1F00;
-  --leo-mid: #7A4500;
-  --leo-amber: #B87820;
+  --maroon-deep:  #160408;   /* near-black with maroon warmth */
+  --maroon-dark:  #3A0D16;   /* deep maroon — primary bg */
+  --maroon:       #6B1F2A;   /* mid maroon */
+  --maroon-light: #8B3040;   /* lighter maroon accent */
+  --gold:         #C9A84C;
+  --gold-light:   #E8C96B;
+  --gold-pale:    #F5E6B8;
+  --beige:        #F0E6D3;
+  --beige-dark:   #D4C4A8;
+  --cream:        #FAF5EC;
 }
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
   font-family: 'Cormorant Garamond', serif;
-  background: var(--black);
+  background: var(--maroon-deep);
   color: var(--beige);
   overflow-x: hidden;
 }
 
-/* ========================================
-   ANIMAL PRINT PATTERNS
-   ======================================== */
+/* ═══════════════════════════════════════
+   ANIMAL PRINT IMAGE BANDS
+   ═══════════════════════════════════════ */
 
-/* Leopard print — horizontal band */
+/* Full leopard band — shows the actual photo, tiled horizontally */
 .leopard-band {
   width: 100%;
-  height: 64px;
-  position: relative;
-  overflow: hidden;
-  background-color: var(--leo-tan);
-  background-image:
-    /* Spot cluster A */
-    radial-gradient(ellipse 13px 8px at 22px 16px, var(--leo-dark) 100%, transparent 100%),
-    radial-gradient(ellipse 6px 10px at 34px 9px, var(--leo-dark) 100%, transparent 100%),
-    radial-gradient(ellipse 9px 6px at 13px 27px, var(--leo-dark) 100%, transparent 100%),
-    /* Spot cluster B */
-    radial-gradient(ellipse 11px 7px at 58px 20px, var(--leo-dark) 100%, transparent 100%),
-    radial-gradient(ellipse 6px 10px at 70px 12px, var(--leo-dark) 100%, transparent 100%),
-    radial-gradient(ellipse 8px 5px at 50px 31px, var(--leo-dark) 100%, transparent 100%),
-    /* Spot cluster C */
-    radial-gradient(ellipse 12px 8px at 95px 18px, var(--leo-dark) 100%, transparent 100%),
-    radial-gradient(ellipse 5px 9px at 108px 10px, var(--leo-dark) 100%, transparent 100%),
-    radial-gradient(ellipse 9px 5px at 87px 30px, var(--leo-dark) 100%, transparent 100%),
-    /* Spot cluster D */
-    radial-gradient(ellipse 11px 7px at 130px 22px, var(--leo-dark) 100%, transparent 100%),
-    radial-gradient(ellipse 6px 10px at 142px 14px, var(--leo-dark) 100%, transparent 100%),
-    radial-gradient(ellipse 8px 5px at 122px 34px, var(--leo-dark) 100%, transparent 100%),
-    /* Warm halos behind spots */
-    radial-gradient(circle 20px at 22px 18px, rgba(90,40,0,0.38) 50%, transparent 100%),
-    radial-gradient(circle 17px at 58px 22px, rgba(90,40,0,0.32) 50%, transparent 100%),
-    radial-gradient(circle 19px at 95px 20px, rgba(90,40,0,0.36) 50%, transparent 100%),
-    radial-gradient(circle 17px at 130px 24px, rgba(90,40,0,0.32) 50%, transparent 100%);
-  background-size: 155px 64px;
+  height: 80px;
+  background: url('leapard-print-2.jpg') center top / auto 100% repeat-x;
+  display: block;
 }
 
-/* Narrow leopard strip for sidebar accents */
-.leopard-sidebar {
-  width: 18px;
-  background-color: var(--leo-tan);
-  background-image:
-    radial-gradient(ellipse 7px 4px at 9px 10px, var(--leo-dark) 100%, transparent 100%),
-    radial-gradient(ellipse 4px 7px at 14px 4px, var(--leo-dark) 100%, transparent 100%),
-    radial-gradient(ellipse 6px 4px at 4px 20px, var(--leo-dark) 100%, transparent 100%),
-    radial-gradient(ellipse 7px 4px at 10px 32px, var(--leo-dark) 100%, transparent 100%),
-    radial-gradient(ellipse 4px 7px at 15px 26px, var(--leo-dark) 100%, transparent 100%),
-    radial-gradient(ellipse 6px 4px at 3px 44px, var(--leo-dark) 100%, transparent 100%),
-    radial-gradient(ellipse 7px 4px at 11px 54px, var(--leo-dark) 100%, transparent 100%),
-    radial-gradient(ellipse 4px 7px at 15px 46px, var(--leo-dark) 100%, transparent 100%);
-  background-size: 18px 65px;
-  background-repeat: repeat-y;
+/* Thinner leopard strip */
+.leopard-band-sm {
+  width: 100%;
+  height: 48px;
+  background: url('leapard-print-2.jpg') center / auto 100% repeat-x;
+  display: block;
 }
 
-/* Tiger stripe — thin accent */
-.tiger-stripe-sm {
-  height: 8px;
-  background: var(--charcoal);
-  background-image: repeating-linear-gradient(
-    -65deg,
-    transparent 0px, transparent 7px,
-    rgba(201,168,76,0.75) 7px, rgba(201,168,76,0.75) 13px,
-    transparent 13px, transparent 24px,
-    rgba(232,201,107,0.5) 24px, rgba(232,201,107,0.5) 28px,
-    transparent 28px, transparent 42px,
-    rgba(201,168,76,0.65) 42px, rgba(201,168,76,0.65) 48px,
-    transparent 48px, transparent 58px
-  );
+/* Tiger strip */
+.tiger-band {
+  width: 100%;
+  height: 56px;
+  background: url('tiger-print.jpg') center / auto 100% repeat-x;
+  display: block;
 }
 
-/* Tiger stripe — thick divider */
-.tiger-stripe-lg {
-  height: 22px;
-  background: var(--charcoal);
-  background-image: repeating-linear-gradient(
-    -65deg,
-    transparent 0px, transparent 10px,
-    rgba(201,168,76,0.8) 10px, rgba(201,168,76,0.8) 19px,
-    transparent 19px, transparent 34px,
-    rgba(232,201,107,0.55) 34px, rgba(232,201,107,0.55) 41px,
-    transparent 41px, transparent 58px,
-    rgba(201,168,76,0.7) 58px, rgba(201,168,76,0.7) 65px,
-    transparent 65px, transparent 78px
-  );
+/* Thin tiger strip */
+.tiger-band-sm {
+  width: 100%;
+  height: 30px;
+  background: url('tiger-print.jpg') center / auto 100% repeat-x;
+  display: block;
 }
 
-/* Tiger stripe on nav bottom edge */
-.tiger-nav-edge {
-  position: absolute;
-  bottom: 0; left: 0; right: 0;
-  height: 3px;
-  background: repeating-linear-gradient(
-    90deg,
-    var(--gold) 0px, var(--gold) 18px,
-    transparent 18px, transparent 25px,
-    var(--gold-light) 25px, var(--gold-light) 33px,
-    transparent 33px, transparent 44px
-  );
-  opacity: 0.55;
-}
-
-/* ========================================
+/* ═══════════════════════════════════════
    SCROLLBAR
-   ======================================== */
+   ═══════════════════════════════════════ */
 ::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: var(--black); }
+::-webkit-scrollbar-track { background: var(--maroon-dark); }
 ::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 3px; }
 
-/* ========================================
+/* ═══════════════════════════════════════
    CUSTOM CURSOR
-   ======================================== */
+   ═══════════════════════════════════════ */
 body { cursor: none; }
 .cursor {
   width: 20px; height: 20px;
@@ -220,15 +148,14 @@ body { cursor: none; }
   z-index: 9999; mix-blend-mode: difference;
 }
 .cursor-dot {
-  width: 5px; height: 5px;
-  background: var(--gold); border-radius: 50%;
-  position: fixed; pointer-events: none;
+  width: 5px; height: 5px; background: var(--gold);
+  border-radius: 50%; position: fixed; pointer-events: none;
   transform: translate(-50%,-50%); z-index: 9999;
 }
 
-/* ========================================
-   MAGAZINE MASTHEAD BAR
-   ======================================== */
+/* ═══════════════════════════════════════
+   MASTHEAD BAR
+   ═══════════════════════════════════════ */
 .masthead-bar {
   background: var(--gold);
   padding: 9px 60px;
@@ -238,25 +165,32 @@ body { cursor: none; }
 .masthead-left {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 0.55rem; letter-spacing: 3.5px;
-  text-transform: uppercase; color: var(--black); font-weight: 600;
+  text-transform: uppercase; color: var(--maroon-dark); font-weight: 600;
 }
 .masthead-right {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 0.55rem; letter-spacing: 2px;
-  text-transform: uppercase; color: var(--charcoal);
+  text-transform: uppercase; color: var(--maroon);
   display: flex; gap: 28px;
 }
 
-/* ========================================
+/* ═══════════════════════════════════════
    NAVIGATION
-   ======================================== */
+   ═══════════════════════════════════════ */
 nav {
   position: sticky; top: 0; z-index: 100;
   display: flex; align-items: center; justify-content: space-between;
   padding: 18px 60px;
-  background: rgba(10,8,6,0.97);
+  background: rgba(22,4,8,0.97);
   backdrop-filter: blur(14px);
-  border-bottom: 1px solid rgba(201,168,76,0.2);
+  border-bottom: 1px solid rgba(201,168,76,0.25);
+}
+/* Tiger strip along nav bottom */
+nav::after {
+  content: '';
+  position: absolute; bottom: 0; left: 0; right: 0; height: 4px;
+  background: url('tiger-print.jpg') center / auto 100% repeat-x;
+  opacity: 0.7;
 }
 .nav-logo {
   font-family: 'Playfair Display', serif;
@@ -266,13 +200,10 @@ nav {
 .nav-logo strong {
   display: block; font-style: normal; font-weight: 700;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 0.6rem; letter-spacing: 5px;
-  text-transform: uppercase; color: var(--beige-dark);
-  margin-top: 3px;
+  font-size: 0.58rem; letter-spacing: 5px;
+  text-transform: uppercase; color: var(--beige-dark); margin-top: 3px;
 }
-.nav-links {
-  display: flex; gap: 36px; list-style: none;
-}
+.nav-links { display: flex; gap: 36px; list-style: none; }
 .nav-links a {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 0.62rem; letter-spacing: 3px;
@@ -282,26 +213,22 @@ nav {
 .nav-links a:hover { color: var(--gold); }
 .nav-book-btn {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 0.58rem; letter-spacing: 3px;
-  text-transform: uppercase; padding: 11px 28px;
-  border: 1px solid var(--gold); color: var(--gold);
-  background: transparent; cursor: pointer;
-  transition: all 0.3s; text-decoration: none;
+  font-size: 0.58rem; letter-spacing: 3px; text-transform: uppercase;
+  padding: 11px 28px; border: 1px solid var(--gold);
+  color: var(--gold); background: transparent;
+  cursor: pointer; transition: all 0.3s; text-decoration: none;
 }
-.nav-book-btn:hover { background: var(--gold); color: var(--black); }
+.nav-book-btn:hover { background: var(--gold); color: var(--maroon-dark); }
 
 /* Hamburger */
 .hamburger {
   display: none; flex-direction: column; gap: 5px;
   cursor: pointer; background: none; border: none; padding: 4px;
 }
-.hamburger span {
-  display: block; width: 24px; height: 2px;
-  background: var(--gold); transition: all 0.3s;
-}
+.hamburger span { display: block; width: 24px; height: 2px; background: var(--gold); transition: all 0.3s; }
 .mobile-menu {
   display: none; position: fixed; inset: 0;
-  background: rgba(10,8,6,0.98); z-index: 999;
+  background: rgba(22,4,8,0.98); z-index: 999;
   flex-direction: column; align-items: center; justify-content: center; gap: 32px;
 }
 .mobile-menu.active { display: flex; }
@@ -312,55 +239,44 @@ nav {
 .mobile-menu a:hover { color: var(--gold); }
 .mobile-close {
   position: absolute; top: 22px; right: 26px;
-  background: none; border: none; color: var(--beige-dark);
-  font-size: 1.8rem; cursor: pointer; line-height: 1;
+  background: none; border: none; color: var(--beige-dark); font-size: 1.8rem; cursor: pointer;
 }
 
-/* ========================================
-   HERO
-   ======================================== */
+/* ═══════════════════════════════════════
+   HERO — tiger print background
+   ═══════════════════════════════════════ */
 .hero {
   min-height: 100vh; display: flex; align-items: center;
   position: relative; overflow: hidden;
-  padding: 80px 60px 80px;
-  background: linear-gradient(140deg, #0A0806 0%, #1a1208 55%, #0d0a05 100%);
+  padding: 80px 60px;
+  /* Tiger print texture underneath the overlay */
+  background: url('tiger-print.jpg') center / cover no-repeat;
 }
-.hero::before {
-  content: '';
+/* Dark maroon overlay so text is legible */
+.hero-overlay {
   position: absolute; inset: 0;
-  background: repeating-linear-gradient(
-    -55deg,
-    transparent 0px, transparent 28px,
-    rgba(201,168,76,0.04) 28px, rgba(201,168,76,0.04) 33px,
-    transparent 33px, transparent 65px,
-    rgba(139,69,19,0.03) 65px, rgba(139,69,19,0.03) 70px
+  background: linear-gradient(
+    135deg,
+    rgba(22,4,8,0.90) 0%,
+    rgba(58,13,22,0.85) 50%,
+    rgba(22,4,8,0.92) 100%
   );
   z-index: 1;
 }
-.hero::after {
-  content: '';
-  position: absolute; inset: 0;
-  background:
-    radial-gradient(ellipse 65% 75% at 70% 50%, rgba(201,168,76,0.07) 0%, transparent 70%),
-    radial-gradient(ellipse 40% 60% at 10% 80%, rgba(61,31,0,0.15) 0%, transparent 70%);
-  z-index: 1;
-}
-.hero-content {
-  position: relative; z-index: 2; max-width: 700px;
-}
+.hero-content { position: relative; z-index: 2; max-width: 700px; }
+
 .hero-magazine-tag {
   display: inline-flex; align-items: center; gap: 12px;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 0.55rem; letter-spacing: 5px;
-  text-transform: uppercase; color: var(--black);
-  background: var(--gold); padding: 7px 18px;
-  margin-bottom: 36px; font-weight: 600;
+  font-size: 0.55rem; letter-spacing: 5px; text-transform: uppercase;
+  color: var(--maroon-dark); background: var(--gold);
+  padding: 7px 18px; margin-bottom: 36px; font-weight: 600;
 }
 .hero h1 {
   font-family: 'Playfair Display', serif;
   font-size: clamp(3.8rem, 8.5vw, 7.5rem);
   line-height: 0.95; font-weight: 400; font-style: italic;
-  background: linear-gradient(135deg, var(--gold-light) 0%, var(--beige) 45%, var(--gold) 100%);
+  background: linear-gradient(135deg, var(--gold-light) 0%, var(--cream) 45%, var(--gold) 100%);
   -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
   margin-bottom: 8px;
 }
@@ -368,13 +284,9 @@ nav {
   display: block; font-style: normal;
   font-family: 'Josefin Sans', sans-serif;
   font-size: clamp(1.4rem, 3vw, 2.6rem);
-  letter-spacing: 9px; text-transform: uppercase;
-  font-weight: 300; margin-top: 14px;
+  letter-spacing: 9px; text-transform: uppercase; font-weight: 300; margin-top: 14px;
 }
-.hero-rule {
-  width: 70px; height: 1px; background: var(--gold);
-  margin: 34px 0;
-}
+.hero-rule { width: 70px; height: 1px; background: var(--gold); margin: 34px 0; }
 .hero-sub {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.22rem; font-style: italic;
@@ -383,50 +295,48 @@ nav {
 }
 .hero-ctas { display: flex; gap: 16px; flex-wrap: wrap; }
 
-/* Hero decorative text watermark */
+/* Watermark */
 .hero-watermark {
   position: absolute; right: 50px; top: 50%;
   transform: translateY(-50%);
-  z-index: 2; pointer-events: none; opacity: 0.06;
+  z-index: 2; pointer-events: none; opacity: 0.07;
   font-family: 'Playfair Display', serif;
   font-size: 22vw; font-style: italic; font-weight: 900;
   color: var(--gold); line-height: 1;
-  writing-mode: vertical-rl;
-  letter-spacing: -0.05em;
+  writing-mode: vertical-rl; letter-spacing: -0.05em;
 }
 
-/* ========================================
+/* ═══════════════════════════════════════
    BUTTONS
-   ======================================== */
+   ═══════════════════════════════════════ */
 .btn-primary {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 0.62rem; letter-spacing: 3px; text-transform: uppercase;
   padding: 17px 42px;
   background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%);
-  color: var(--black); border: none; cursor: pointer;
-  text-decoration: none; display: inline-block;
-  transition: all 0.3s; font-weight: 600;
+  color: var(--maroon-dark); border: none; cursor: pointer;
+  text-decoration: none; display: inline-block; transition: all 0.3s; font-weight: 600;
 }
 .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 36px rgba(201,168,76,0.35); }
+
 .btn-outline {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 0.62rem; letter-spacing: 3px; text-transform: uppercase;
   padding: 17px 42px; background: transparent; color: var(--beige);
-  border: 1px solid rgba(240,230,211,0.35); cursor: pointer;
+  border: 1px solid rgba(240,230,211,0.4); cursor: pointer;
   text-decoration: none; display: inline-block; transition: all 0.3s;
 }
 .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
 
-/* ========================================
-   EDITORIAL STRIP (magazine "this issue")
-   ======================================== */
+/* ═══════════════════════════════════════
+   EDITORIAL STRIP
+   ═══════════════════════════════════════ */
 .editorial-strip {
-  background: var(--charcoal2);
-  border-top: 1px solid rgba(201,168,76,0.18);
-  border-bottom: 1px solid rgba(201,168,76,0.18);
+  background: var(--maroon-dark);
+  border-top: 1px solid rgba(201,168,76,0.2);
+  border-bottom: 1px solid rgba(201,168,76,0.2);
   padding: 18px 60px;
-  display: flex; align-items: center; gap: 36px;
-  overflow: hidden; position: relative;
+  display: flex; align-items: center; gap: 36px; overflow: hidden;
 }
 .editorial-strip::before {
   content: 'INSIDE THIS ISSUE';
@@ -434,12 +344,9 @@ nav {
   font-size: 0.5rem; letter-spacing: 4px;
   text-transform: uppercase; color: var(--gold);
   white-space: nowrap; flex-shrink: 0;
-  border-right: 1px solid rgba(201,168,76,0.3);
-  padding-right: 36px;
+  border-right: 1px solid rgba(201,168,76,0.3); padding-right: 36px;
 }
-.editorial-items {
-  display: flex; gap: 36px; flex-wrap: wrap;
-}
+.editorial-items { display: flex; gap: 36px; flex-wrap: wrap; }
 .editorial-item {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic; font-size: 1rem; color: var(--beige-dark);
@@ -447,15 +354,14 @@ nav {
 }
 .editorial-item::before { content: '✦'; color: var(--gold); font-style: normal; font-size: 0.6rem; }
 
-/* ========================================
+/* ═══════════════════════════════════════
    SECTION COMMONS
-   ======================================== */
+   ═══════════════════════════════════════ */
 .section-label {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 0.55rem; letter-spacing: 5px;
   text-transform: uppercase; color: var(--gold);
-  margin-bottom: 14px;
-  display: flex; align-items: center; gap: 12px;
+  margin-bottom: 14px; display: flex; align-items: center; gap: 12px;
 }
 .section-label::before {
   content: ''; width: 26px; height: 1px;
@@ -467,64 +373,61 @@ nav {
   line-height: 1.12; font-style: italic; font-weight: 400;
   color: var(--gold-light); margin-bottom: 26px;
 }
-.section-body {
-  font-size: 1.1rem; line-height: 2;
-  color: var(--beige-dark); margin-bottom: 18px;
-}
-.gold-ornament {
-  display: flex; align-items: center; gap: 14px; margin: 24px 0;
-}
+.section-body { font-size: 1.1rem; line-height: 2; color: var(--beige-dark); margin-bottom: 18px; }
+.gold-ornament { display: flex; align-items: center; gap: 14px; margin: 24px 0; }
 .gold-ornament::before, .gold-ornament::after {
   content: ''; flex: 1; height: 1px;
   background: linear-gradient(90deg, transparent, var(--gold), transparent);
 }
 .gold-ornament span { color: var(--gold); font-size: 0.9rem; }
 
-/* ========================================
+/* ═══════════════════════════════════════
    ABOUT SECTION
-   ======================================== */
+   ═══════════════════════════════════════ */
 .about-section {
   padding: 100px 60px;
   max-width: 1400px; margin: 0 auto;
   display: grid; grid-template-columns: 1fr 1.15fr;
   gap: 90px; align-items: center;
 }
-.about-image-wrap {
-  position: relative;
-}
+.about-image-wrap { position: relative; }
+
+/* Leopard print sidebar — actual image */
 .about-leopard-bar {
   position: absolute;
-  left: -24px; top: 0; bottom: 0; width: 14px;
+  left: -26px; top: 0; bottom: 0; width: 14px;
+  background: url('leapard-print-2.jpg') center / auto 100% repeat-y;
 }
+
 .about-image-box {
   width: 100%; padding-bottom: 130%;
-  background: linear-gradient(145deg, #1e1508 0%, #2e200e 50%, #1a1208 100%);
+  background: linear-gradient(145deg, var(--maroon-dark) 0%, var(--maroon) 50%, var(--maroon-dark) 100%);
   position: relative; overflow: hidden;
-  border: 1px solid rgba(201,168,76,0.18);
+  border: 1px solid rgba(201,168,76,0.2);
 }
 .about-image-box::before {
   content: '';
   position: absolute; inset: 0;
-  background:
-    radial-gradient(ellipse 60% 30% at 50% 0%, rgba(201,168,76,0.06) 0%, transparent 100%),
-    radial-gradient(ellipse 40% 50% at 100% 100%, rgba(61,31,0,0.2) 0%, transparent 100%);
+  /* Subtle leopard texture in placeholder */
+  background: url('leapard-print-2.jpg') center / cover no-repeat;
+  opacity: 0.08;
 }
 .about-image-box::after {
   content: '✦';
   position: absolute; inset: 0;
   display: flex; align-items: center; justify-content: center;
-  font-size: 7rem; color: rgba(201,168,76,0.1);
+  font-size: 7rem; color: rgba(201,168,76,0.14);
 }
 .about-img-caption {
   position: absolute; bottom: 0; left: 0; right: 0;
-  padding: 40px 28px 22px;
-  background: linear-gradient(0deg, rgba(10,8,6,0.92) 0%, transparent 100%);
-  text-align: center;
+  padding: 50px 28px 22px;
+  background: linear-gradient(0deg, rgba(22,4,8,0.92) 0%, transparent 100%);
+  text-align: center; z-index: 1;
 }
 .about-img-caption p {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 0.52rem; letter-spacing: 4px;
-  color: rgba(201,168,76,0.55); text-transform: uppercase;
+  color: rgba(201,168,76,0.6); text-transform: uppercase;
 }
 /* Gold corner frame */
 .fc { position: absolute; width: 34px; height: 34px; border-color: var(--gold); border-style: solid; }
@@ -533,22 +436,20 @@ nav {
 .fc.bl { bottom: -10px; left: -10px; border-width: 0 0 2px 2px; }
 .fc.br { bottom: -10px; right: -10px; border-width: 0 2px 2px 0; }
 
-.about-content {}
 .about-pull-quote {
   margin-top: 42px; padding: 28px 30px;
   border-left: 3px solid var(--gold);
-  background: rgba(201,168,76,0.04); position: relative;
+  background: rgba(107,31,42,0.15); position: relative;
 }
 .about-pull-quote::before {
   content: '\201C';
   position: absolute; top: -22px; left: 18px;
   font-family: 'Playfair Display', serif;
-  font-size: 6rem; color: rgba(201,168,76,0.18); line-height: 1;
+  font-size: 6rem; color: rgba(201,168,76,0.2); line-height: 1;
 }
 .about-pull-quote blockquote {
   font-family: 'Playfair Display', serif; font-style: italic;
-  font-size: 1.12rem; color: var(--gold-pale);
-  line-height: 1.9; position: relative;
+  font-size: 1.12rem; color: var(--gold-pale); line-height: 1.9; position: relative;
 }
 .about-pull-quote cite {
   display: block; margin-top: 14px;
@@ -557,455 +458,263 @@ nav {
   color: var(--gold); text-transform: uppercase; font-style: normal;
 }
 
-/* ========================================
+/* ═══════════════════════════════════════
    SERVICES SECTION
-   ======================================== */
+   ═══════════════════════════════════════ */
 .services-section {
   padding: 100px 60px;
-  background: var(--charcoal);
   position: relative; overflow: hidden;
+  /* Tiger print behind a maroon overlay */
+  background: url('tiger-print.jpg') center / cover no-repeat;
 }
 .services-section::before {
   content: '';
   position: absolute; inset: 0;
-  background: repeating-linear-gradient(
-    -55deg,
-    transparent 0px, transparent 24px,
-    rgba(139,69,19,0.05) 24px, rgba(139,69,19,0.05) 28px,
-    transparent 28px, transparent 56px,
-    rgba(139,69,19,0.03) 56px, rgba(139,69,19,0.03) 60px
-  );
+  background: rgba(58,13,22,0.93);
   pointer-events: none;
 }
-.services-header { text-align: center; margin-bottom: 70px; position: relative; }
+.services-header { text-align: center; margin-bottom: 70px; position: relative; z-index: 1; }
 .services-grid {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(262px, 1fr));
-  gap: 26px; max-width: 1400px; margin: 0 auto; position: relative;
+  gap: 26px; max-width: 1400px; margin: 0 auto; position: relative; z-index: 1;
 }
 .service-card {
-  background: linear-gradient(145deg, rgba(26,18,8,0.96) 0%, rgba(10,8,6,0.99) 100%);
-  border: 1px solid rgba(201,168,76,0.2);
+  background: linear-gradient(145deg, rgba(22,4,8,0.96) 0%, rgba(58,13,22,0.98) 100%);
+  border: 1px solid rgba(201,168,76,0.22);
   padding: 46px 38px;
-  position: relative; overflow: hidden;
-  transition: all 0.4s ease;
+  position: relative; overflow: hidden; transition: all 0.4s ease;
 }
-/* Leopard rosette deco in card corner */
+/* Leopard print corner on card */
 .service-card::after {
   content: '';
   position: absolute; bottom: 0; right: 0;
-  width: 64px; height: 64px;
-  background-color: rgba(200,160,96,0.07);
-  background-image:
-    radial-gradient(ellipse 11px 7px at 16px 16px, rgba(61,31,0,0.55) 100%, transparent 100%),
-    radial-gradient(ellipse 6px 9px at 27px 9px, rgba(61,31,0,0.45) 100%, transparent 100%),
-    radial-gradient(ellipse 8px 5px at 8px 28px, rgba(61,31,0,0.45) 100%, transparent 100%),
-    radial-gradient(ellipse 10px 6px at 42px 22px, rgba(61,31,0,0.4) 100%, transparent 100%);
-  background-size: 64px 64px;
+  width: 80px; height: 80px;
+  background: url('leapard-print-2.jpg') bottom right / cover no-repeat;
+  opacity: 0.18;
 }
-/* Tiger stripe top on hover */
+/* Gold/leopard top border on hover */
 .service-card::before {
   content: '';
   position: absolute; top: 0; left: 0; right: 0; height: 3px;
-  background: linear-gradient(90deg, var(--leo-dark), var(--gold), var(--leo-tan), var(--gold), var(--leo-dark));
+  background: linear-gradient(90deg, var(--maroon), var(--gold), var(--maroon-light), var(--gold), var(--maroon));
   transform: scaleX(0); transition: transform 0.4s ease;
 }
-.service-card:hover {
-  border-color: rgba(201,168,76,0.5);
-  transform: translateY(-7px);
-  box-shadow: 0 18px 52px rgba(0,0,0,0.45);
-}
+.service-card:hover { border-color: rgba(201,168,76,0.55); transform: translateY(-7px); box-shadow: 0 18px 52px rgba(0,0,0,0.5); }
 .service-card:hover::before { transform: scaleX(1); }
 .service-issue {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 0.48rem; letter-spacing: 4px;
-  text-transform: uppercase; color: rgba(201,168,76,0.45);
-  margin-bottom: 4px;
+  text-transform: uppercase; color: rgba(201,168,76,0.4); margin-bottom: 4px;
 }
 .service-icon { font-size: 2.6rem; margin-bottom: 20px; display: block; }
-.service-name {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.5rem; font-style: italic;
-  color: var(--gold-light); margin-bottom: 4px;
-}
-.service-duration {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 0.56rem; letter-spacing: 3px;
-  text-transform: uppercase; color: var(--gold); margin-bottom: 16px;
-}
-.service-desc {
-  font-size: 1rem; line-height: 1.95;
-  color: var(--beige-dark); margin-bottom: 26px;
-}
-.service-price {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.9rem; color: var(--gold); margin-bottom: 20px;
-}
-.service-price span {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 0.68rem; letter-spacing: 2px;
-  color: var(--beige-dark); vertical-align: super; margin-right: 3px;
-}
+.service-name { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-style: italic; color: var(--gold-light); margin-bottom: 4px; }
+.service-duration { font-family: 'Josefin Sans', sans-serif; font-size: 0.56rem; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); margin-bottom: 16px; }
+.service-desc { font-size: 1rem; line-height: 1.95; color: var(--beige-dark); margin-bottom: 26px; }
+.service-price { font-family: 'Playfair Display', serif; font-size: 1.9rem; color: var(--gold); margin-bottom: 20px; }
+.service-price span { font-family: 'Josefin Sans', sans-serif; font-size: 0.68rem; letter-spacing: 2px; color: var(--beige-dark); vertical-align: super; margin-right: 3px; }
 .service-book-btn {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 0.56rem; letter-spacing: 3px; text-transform: uppercase;
   padding: 13px 26px; border: 1px solid var(--gold);
-  color: var(--gold); background: transparent;
-  cursor: pointer; transition: all 0.3s; width: 100%;
+  color: var(--gold); background: transparent; cursor: pointer; transition: all 0.3s; width: 100%;
 }
-.service-book-btn:hover { background: var(--gold); color: var(--black); }
+.service-book-btn:hover { background: var(--gold); color: var(--maroon-dark); }
 
-/* ========================================
+/* ═══════════════════════════════════════
    TESTIMONIALS
-   ======================================== */
+   ═══════════════════════════════════════ */
 .testimonials-section {
   padding: 90px 60px;
-  background: var(--black);
-  position: relative; overflow: hidden;
+  background: var(--maroon-deep); position: relative; overflow: hidden;
 }
 .testimonials-section::before {
   content: '\201C';
-  position: absolute; top: -80px; left: 50%;
-  transform: translateX(-50%);
-  font-family: 'Playfair Display', serif;
-  font-size: 28rem; line-height: 1;
-  color: rgba(201,168,76,0.025); pointer-events: none;
+  position: absolute; top: -80px; left: 50%; transform: translateX(-50%);
+  font-family: 'Playfair Display', serif; font-size: 28rem; line-height: 1;
+  color: rgba(107,31,42,0.18); pointer-events: none;
 }
-.testimonials-header { text-align: center; margin-bottom: 60px; }
+.testimonials-header { text-align: center; margin-bottom: 60px; position: relative; }
 .testimonials-grid {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   gap: 32px; max-width: 1200px; margin: 0 auto; position: relative;
 }
 .testimonial-card {
   padding: 40px;
-  border: 1px solid rgba(201,168,76,0.14);
-  background: rgba(28,24,16,0.55);
-  position: relative;
+  border: 1px solid rgba(201,168,76,0.16);
+  background: rgba(58,13,22,0.5); position: relative; overflow: hidden;
 }
-/* Leopard corner accent on testimonial cards */
+/* Leopard print top-right corner on testimonial cards */
 .testimonial-card::after {
   content: '';
-  position: absolute; top: 0; right: 0;
-  width: 42px; height: 42px;
-  background-color: rgba(200,160,96,0.1);
-  background-image:
-    radial-gradient(ellipse 8px 5px at 10px 10px, rgba(61,31,0,0.5) 100%, transparent 100%),
-    radial-gradient(ellipse 4px 6px at 18px 4px, rgba(61,31,0,0.4) 100%, transparent 100%),
-    radial-gradient(ellipse 6px 4px at 4px 20px, rgba(61,31,0,0.4) 100%, transparent 100%);
-  background-size: 42px 42px;
+  position: absolute; top: 0; right: 0; width: 55px; height: 55px;
+  background: url('leapard-print-2.jpg') top right / cover no-repeat;
+  opacity: 0.25;
 }
 .testimonial-card::before {
   content: '\201C';
-  font-family: 'Playfair Display', serif;
-  font-size: 4rem; color: rgba(201,168,76,0.22);
-  line-height: 1; display: block; margin-bottom: 10px;
+  font-family: 'Playfair Display', serif; font-size: 4rem;
+  color: rgba(201,168,76,0.25); line-height: 1; display: block; margin-bottom: 10px;
 }
-.testimonial-text {
-  font-family: 'Playfair Display', serif;
-  font-style: italic; font-size: 1.1rem;
-  line-height: 1.85; color: var(--beige); margin-bottom: 22px;
-}
+.testimonial-text { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.1rem; line-height: 1.85; color: var(--beige); margin-bottom: 22px; }
 .testimonial-author {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 0.56rem; letter-spacing: 3px;
-  text-transform: uppercase; color: var(--gold);
-  display: flex; align-items: center; gap: 10px;
+  font-family: 'Josefin Sans', sans-serif; font-size: 0.56rem; letter-spacing: 3px;
+  text-transform: uppercase; color: var(--gold); display: flex; align-items: center; gap: 10px;
 }
-.testimonial-author::before {
-  content: ''; width: 18px; height: 1px; background: var(--gold);
-}
+.testimonial-author::before { content: ''; width: 18px; height: 1px; background: var(--gold); }
 
-/* ========================================
+/* ═══════════════════════════════════════
    BOOKING SECTION
-   ======================================== */
+   ═══════════════════════════════════════ */
 .booking-section {
   padding: 100px 60px;
-  background: var(--black); position: relative;
+  position: relative;
+  background: url('leapard-print-2.jpg') center / cover no-repeat;
 }
 .booking-section::before {
   content: '';
   position: absolute; inset: 0;
-  background: repeating-linear-gradient(
-    -55deg,
-    transparent 0px, transparent 30px,
-    rgba(139,69,19,0.04) 30px, rgba(139,69,19,0.04) 34px,
-    transparent 34px, transparent 66px
-  );
+  background: rgba(22,4,8,0.93);
   pointer-events: none;
 }
 .booking-wrapper {
   max-width: 960px; margin: 0 auto;
-  background: linear-gradient(145deg, rgba(26,18,8,0.98) 0%, rgba(10,8,6,0.99) 100%);
-  border: 1px solid rgba(201,168,76,0.25);
+  background: linear-gradient(145deg, rgba(58,13,22,0.97) 0%, rgba(22,4,8,0.99) 100%);
+  border: 1px solid rgba(201,168,76,0.28);
   padding: 70px; position: relative;
 }
-/* Tiger stripe top on booking box */
+/* Tiger strip along top of booking box */
 .booking-wrapper::before {
   content: '';
-  position: absolute; top: 0; left: 0; right: 0; height: 5px;
-  background: repeating-linear-gradient(
-    90deg,
-    var(--gold) 0px, var(--gold) 16px,
-    var(--black) 16px, var(--black) 22px,
-    var(--gold-light) 22px, var(--gold-light) 30px,
-    var(--black) 30px, var(--black) 40px,
-    var(--gold) 40px, var(--gold) 52px,
-    var(--black) 52px, var(--black) 60px
-  );
-  opacity: 0.75;
+  position: absolute; top: 0; left: 0; right: 0; height: 6px;
+  background: url('tiger-print.jpg') center / auto 100% repeat-x;
+  opacity: 0.8;
 }
 /* Leopard corner on booking box */
 .booking-wrapper::after {
   content: '';
-  position: absolute; bottom: 0; right: 0;
-  width: 100px; height: 100px;
-  background-color: rgba(200,160,96,0.05);
-  background-image:
-    radial-gradient(ellipse 14px 9px at 20px 20px, rgba(61,31,0,0.4) 100%, transparent 100%),
-    radial-gradient(ellipse 8px 12px at 34px 12px, rgba(61,31,0,0.35) 100%, transparent 100%),
-    radial-gradient(ellipse 11px 7px at 10px 36px, rgba(61,31,0,0.35) 100%, transparent 100%),
-    radial-gradient(ellipse 13px 8px at 55px 26px, rgba(61,31,0,0.3) 100%, transparent 100%),
-    radial-gradient(ellipse 7px 11px at 70px 15px, rgba(61,31,0,0.3) 100%, transparent 100%);
-  background-size: 100px 100px;
+  position: absolute; bottom: 0; right: 0; width: 120px; height: 120px;
+  background: url('leapard-print-2.jpg') bottom right / cover no-repeat;
+  opacity: 0.12;
 }
-.booking-header { text-align: center; margin-bottom: 56px; }
-.booking-form {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 22px;
-}
+.booking-header { text-align: center; margin-bottom: 56px; position: relative; z-index: 1; }
+.booking-form { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; position: relative; z-index: 1; }
 .form-group { display: flex; flex-direction: column; gap: 8px; }
 .form-group.full-width { grid-column: 1 / -1; }
-.form-group label {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 0.55rem; letter-spacing: 3px;
-  text-transform: uppercase; color: var(--gold);
-}
+.form-group label { font-family: 'Josefin Sans', sans-serif; font-size: 0.55rem; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); }
 .form-group input,
 .form-group select,
 .form-group textarea {
-  background: rgba(255,255,255,0.025);
-  border: 1px solid rgba(201,168,76,0.2);
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(201,168,76,0.22);
   padding: 15px 18px; color: var(--beige);
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.05rem; outline: none;
-  transition: border-color 0.3s;
+  font-family: 'Cormorant Garamond', serif; font-size: 1.05rem;
+  outline: none; transition: border-color 0.3s;
   appearance: none; -webkit-appearance: none;
 }
 .form-group select {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23C9A84C' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right 18px center;
+  background-repeat: no-repeat; background-position: right 18px center;
   padding-right: 42px; cursor: pointer;
 }
-.form-group select option { background: #1a1208; color: var(--beige); }
-.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
-  border-color: var(--gold); background: rgba(201,168,76,0.03);
-}
+.form-group select option { background: var(--maroon-dark); color: var(--beige); }
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: var(--gold); background: rgba(201,168,76,0.04); }
 .form-group textarea { resize: vertical; min-height: 90px; }
-.form-group input::placeholder, .form-group textarea::placeholder {
-  color: rgba(212,196,168,0.22);
-}
-.payment-section {
-  margin-top: 46px; padding-top: 40px;
-  border-top: 1px solid rgba(201,168,76,0.12);
-}
-.payment-title {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 0.58rem; letter-spacing: 4px;
-  text-transform: uppercase; color: var(--gold);
-  text-align: center; margin-bottom: 28px;
-}
-.payment-summary {
-  background: rgba(201,168,76,0.04);
-  border: 1px solid rgba(201,168,76,0.12);
-  padding: 28px; margin-bottom: 26px;
-}
-.payment-row {
-  display: flex; justify-content: space-between; align-items: center;
-  padding: 7px 0; font-size: 1rem; color: var(--beige-dark);
-}
-.payment-row.total {
-  margin-top: 12px; padding-top: 12px;
-  border-top: 1px solid rgba(201,168,76,0.2);
-  font-family: 'Playfair Display', serif;
-  font-size: 1.35rem; color: var(--gold);
-}
-.payfast-badge {
-  text-align: center; margin-bottom: 26px;
-  display: flex; align-items: center; justify-content: center; gap: 8px;
-}
-.payfast-badge-text {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 0.54rem; letter-spacing: 2px;
-  color: rgba(212,196,168,0.4); text-transform: uppercase;
-}
-.payfast-badge-text strong { color: var(--gold); font-weight: 600; }
+.form-group input::placeholder, .form-group textarea::placeholder { color: rgba(212,196,168,0.22); }
+
+.payment-section { margin-top: 46px; padding-top: 40px; border-top: 1px solid rgba(201,168,76,0.15); position: relative; z-index: 1; }
+.payment-title { font-family: 'Josefin Sans', sans-serif; font-size: 0.58rem; letter-spacing: 4px; text-transform: uppercase; color: var(--gold); text-align: center; margin-bottom: 28px; }
+.payment-summary { background: rgba(107,31,42,0.2); border: 1px solid rgba(201,168,76,0.15); padding: 28px; margin-bottom: 26px; }
+.payment-row { display: flex; justify-content: space-between; align-items: center; padding: 7px 0; font-size: 1rem; color: var(--beige-dark); }
+.payment-row.total { margin-top: 12px; padding-top: 12px; border-top: 1px solid rgba(201,168,76,0.2); font-family: 'Playfair Display', serif; font-size: 1.35rem; color: var(--gold); }
+.payfast-badge { text-align: center; margin-bottom: 26px; }
+.payfast-badge-text { font-family: 'Josefin Sans', sans-serif; font-size: 0.54rem; letter-spacing: 2px; color: rgba(212,196,168,0.4); text-transform: uppercase; }
+.payfast-badge-text strong { color: var(--gold); }
 .submit-btn {
-  width: 100%;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 0.68rem; letter-spacing: 4px; text-transform: uppercase;
-  padding: 21px;
+  width: 100%; font-family: 'Josefin Sans', sans-serif;
+  font-size: 0.68rem; letter-spacing: 4px; text-transform: uppercase; padding: 21px;
   background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 50%, var(--gold) 100%);
-  background-size: 200% 100%;
-  color: var(--black); border: none; cursor: pointer;
+  background-size: 200% 100%; color: var(--maroon-dark); border: none; cursor: pointer;
   transition: all 0.4s; font-weight: 600;
 }
-.submit-btn:hover {
-  background-position: 100% 0;
-  box-shadow: 0 12px 40px rgba(201,168,76,0.38);
-  transform: translateY(-2px);
-}
+.submit-btn:hover { background-position: 100% 0; box-shadow: 0 12px 40px rgba(201,168,76,0.35); transform: translateY(-2px); }
 
-/* ========================================
+/* ═══════════════════════════════════════
    FOOTER
-   ======================================== */
+   ═══════════════════════════════════════ */
 footer {
-  background: var(--charcoal);
+  background: var(--maroon-dark);
   padding: 80px 60px 40px;
-  border-top: 1px solid rgba(201,168,76,0.15);
+  border-top: 1px solid rgba(201,168,76,0.18);
   position: relative; overflow: hidden;
 }
 footer::before {
   content: '';
   position: absolute; inset: 0;
-  background: repeating-linear-gradient(
-    -55deg,
-    transparent 0px, transparent 24px,
-    rgba(139,69,19,0.04) 24px, rgba(139,69,19,0.04) 28px,
-    transparent 28px, transparent 56px
-  );
-  pointer-events: none;
+  background: url('tiger-print.jpg') center / cover no-repeat;
+  opacity: 0.05; pointer-events: none;
 }
-.footer-grid {
-  display: grid; grid-template-columns: 2fr 1fr 1fr;
-  gap: 70px; margin-bottom: 56px; position: relative;
-}
-.footer-brand {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.65rem; font-style: italic;
-  color: var(--gold); margin-bottom: 14px;
-}
-.footer-tagline {
-  font-size: 0.98rem; line-height: 1.9;
-  color: var(--beige-dark); margin-bottom: 26px; max-width: 300px;
-}
-.footer-col-title {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 0.56rem; letter-spacing: 4px;
-  text-transform: uppercase; color: var(--gold); margin-bottom: 22px;
-}
+.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 70px; margin-bottom: 56px; position: relative; }
+.footer-brand { font-family: 'Playfair Display', serif; font-size: 1.65rem; font-style: italic; color: var(--gold); margin-bottom: 14px; }
+.footer-tagline { font-size: 0.98rem; line-height: 1.9; color: var(--beige-dark); margin-bottom: 26px; max-width: 300px; }
+.footer-col-title { font-family: 'Josefin Sans', sans-serif; font-size: 0.56rem; letter-spacing: 4px; text-transform: uppercase; color: var(--gold); margin-bottom: 22px; }
 .footer-links { list-style: none; }
 .footer-links li { margin-bottom: 11px; }
-.footer-links a {
-  color: var(--beige-dark); text-decoration: none;
-  font-size: 0.95rem; transition: color 0.3s;
-}
+.footer-links a { color: var(--beige-dark); text-decoration: none; font-size: 0.95rem; transition: color 0.3s; }
 .footer-links a:hover { color: var(--gold); }
-.footer-contact-item {
-  display: flex; align-items: flex-start; gap: 11px;
-  margin-bottom: 14px; font-size: 0.92rem;
-  color: var(--beige-dark); line-height: 1.65;
-}
+.footer-contact-item { display: flex; align-items: flex-start; gap: 11px; margin-bottom: 14px; font-size: 0.92rem; color: var(--beige-dark); line-height: 1.65; }
 .footer-contact-item .icon { color: var(--gold); flex-shrink: 0; margin-top: 2px; }
-.footer-bottom {
-  border-top: 1px solid rgba(201,168,76,0.1); padding-top: 28px;
-  display: flex; justify-content: space-between; align-items: center;
-  position: relative;
-}
-.footer-copy {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 0.52rem; letter-spacing: 2px;
-  color: rgba(212,196,168,0.32); text-transform: uppercase;
-}
+.footer-bottom { border-top: 1px solid rgba(201,168,76,0.12); padding-top: 28px; display: flex; justify-content: space-between; align-items: center; position: relative; }
+.footer-copy { font-family: 'Josefin Sans', sans-serif; font-size: 0.52rem; letter-spacing: 2px; color: rgba(212,196,168,0.32); text-transform: uppercase; }
 .footer-social { display: flex; gap: 12px; }
-.social-btn {
-  width: 36px; height: 36px;
-  border: 1px solid rgba(201,168,76,0.28);
-  display: flex; align-items: center; justify-content: center;
-  color: var(--beige-dark); text-decoration: none;
-  font-size: 0.75rem; transition: all 0.3s;
-}
+.social-btn { width: 36px; height: 36px; border: 1px solid rgba(201,168,76,0.3); display: flex; align-items: center; justify-content: center; color: var(--beige-dark); text-decoration: none; font-size: 0.75rem; transition: all 0.3s; }
 .social-btn:hover { border-color: var(--gold); color: var(--gold); }
 
-/* ========================================
+/* ═══════════════════════════════════════
    MODAL
-   ======================================== */
-.modal-overlay {
-  display: none; position: fixed; inset: 0;
-  background: rgba(0,0,0,0.88); z-index: 1000;
-  backdrop-filter: blur(10px);
-  align-items: center; justify-content: center; padding: 20px;
-}
+   ═══════════════════════════════════════ */
+.modal-overlay { display: none; position: fixed; inset: 0; background: rgba(22,4,8,0.92); z-index: 1000; backdrop-filter: blur(10px); align-items: center; justify-content: center; padding: 20px; }
 .modal-overlay.active { display: flex; }
 .modal {
-  background: linear-gradient(145deg, #1a1208, #0d0b07);
+  background: linear-gradient(145deg, var(--maroon-dark), var(--maroon-deep));
   border: 1px solid rgba(201,168,76,0.3);
   padding: 56px; max-width: 560px; width: 100%;
   position: relative; max-height: 90vh; overflow-y: auto;
 }
+/* Leopard strip on modal top */
 .modal::before {
   content: '';
-  position: absolute; top: 0; left: 0; right: 0; height: 4px;
-  background: repeating-linear-gradient(
-    90deg,
-    var(--leo-dark) 0px, var(--leo-dark) 10px,
-    var(--gold) 10px, var(--gold) 22px,
-    var(--leo-tan) 22px, var(--leo-tan) 30px,
-    var(--gold) 30px, var(--gold) 42px,
-    var(--leo-dark) 42px, var(--leo-dark) 52px
-  );
+  position: absolute; top: 0; left: 0; right: 0; height: 5px;
+  background: url('leapard-print-2.jpg') center / auto 100% repeat-x;
 }
-.modal-close {
-  position: absolute; top: 18px; right: 22px;
-  background: none; border: none; color: var(--beige-dark);
-  font-size: 1.4rem; cursor: pointer; transition: color 0.3s; line-height: 1;
-}
+.modal-close { position: absolute; top: 18px; right: 22px; background: none; border: none; color: var(--beige-dark); font-size: 1.4rem; cursor: pointer; transition: color 0.3s; }
 .modal-close:hover { color: var(--gold); }
-.modal h3 {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.9rem; font-style: italic;
-  color: var(--gold-light); margin-bottom: 10px;
-}
-.modal p.modal-sub {
-  font-size: 1rem; color: var(--beige-dark);
-  margin-bottom: 36px; line-height: 1.8;
-}
+.modal h3 { font-family: 'Playfair Display', serif; font-size: 1.9rem; font-style: italic; color: var(--gold-light); margin-bottom: 10px; }
+.modal p.modal-sub { font-size: 1rem; color: var(--beige-dark); margin-bottom: 36px; line-height: 1.8; }
 .success-icon { font-size: 3rem; text-align: center; display: block; margin-bottom: 16px; }
 
-/* ========================================
+/* ═══════════════════════════════════════
    WHATSAPP FLOAT
-   ======================================== */
+   ═══════════════════════════════════════ */
 .whatsapp-float {
   position: fixed; bottom: 28px; right: 28px; z-index: 500;
   display: flex; align-items: center; gap: 10px;
   background: #25D366; color: white; text-decoration: none;
   padding: 12px 20px 12px 14px; border-radius: 50px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 0.58rem; letter-spacing: 2px;
-  text-transform: uppercase; font-weight: 600;
-  box-shadow: 0 6px 24px rgba(37,211,102,0.28);
-  transition: all 0.3s;
+  font-family: 'Josefin Sans', sans-serif; font-size: 0.58rem;
+  letter-spacing: 2px; text-transform: uppercase; font-weight: 600;
+  box-shadow: 0 6px 24px rgba(37,211,102,0.28); transition: all 0.3s;
 }
 .whatsapp-float:hover { transform: translateY(-2px); box-shadow: 0 10px 32px rgba(37,211,102,0.38); }
 .whatsapp-float svg { width: 20px; height: 20px; fill: white; flex-shrink: 0; }
 
-/* ========================================
+/* ═══════════════════════════════════════
    ANIMATIONS
-   ======================================== */
-@keyframes fadeUp {
-  from { opacity: 0; transform: translateY(26px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
-}
+   ═══════════════════════════════════════ */
+@keyframes fadeUp { from { opacity: 0; transform: translateY(26px); } to { opacity: 1; transform: translateY(0); } }
 
-/* ========================================
+/* ═══════════════════════════════════════
    RESPONSIVE
-   ======================================== */
-@media (max-width: 1100px) {
-  .about-section { gap: 60px; }
-  .footer-grid { gap: 50px; }
-}
+   ═══════════════════════════════════════ */
 @media (max-width: 900px) {
   .masthead-bar { padding: 7px 18px; }
   .masthead-right { display: none; }
@@ -1027,7 +736,8 @@ footer::before {
   .footer-grid { grid-template-columns: 1fr; gap: 38px; }
   footer { padding: 56px 22px 30px; }
   .footer-bottom { flex-direction: column; gap: 18px; text-align: center; }
-  .leopard-band { height: 46px; }
+  .leopard-band { height: 52px; }
+  .tiger-band { height: 38px; }
   .whatsapp-float span { display: none; }
   .whatsapp-float { padding: 14px; border-radius: 50%; }
 }
@@ -1035,13 +745,12 @@ footer::before {
 </head>
 <body>
 
-<!-- Custom Cursor -->
 <div class="cursor" id="cursor" aria-hidden="true"></div>
 <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
 
-<!-- WhatsApp Float Button -->
+<!-- WhatsApp -->
 <a href="https://wa.me/27659909742" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
-  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
   <span>WhatsApp Us</span>
 </a>
 
@@ -1054,19 +763,19 @@ footer::before {
   <a href="#contact" onclick="closeMobileMenu()">Contact</a>
 </div>
 
-<!-- Masthead Bar -->
+<!-- Masthead -->
 <div class="masthead-bar" role="banner">
   <span class="masthead-left">Songo Healing Sanctuary &nbsp;&middot;&nbsp; East London, South Africa</span>
   <div class="masthead-right">
     <span>Mon–Sat: 8 AM – 6 PM</span>
-    <span>Book via PayFast</span>
+    <span>Secure PayFast Booking</span>
     <span>065 990 9742</span>
   </div>
 </div>
 
 <!-- Navigation -->
 <nav role="navigation" aria-label="Main navigation">
-  <a href="#home" class="nav-logo" aria-label="Songo Healing Sanctuary home">
+  <a href="#home" class="nav-logo">
     Songo
     <strong>Healing Sanctuary</strong>
   </a>
@@ -1080,13 +789,11 @@ footer::before {
   <button class="hamburger" onclick="openMobileMenu()" aria-label="Open menu" aria-expanded="false" id="hamburgerBtn">
     <span></span><span></span><span></span>
   </button>
-  <div class="tiger-nav-edge" aria-hidden="true"></div>
 </nav>
 
-<!-- ══════════════════════════════════
-     HERO
-     ══════════════════════════════════ -->
+<!-- ─────────────────── HERO ─────────────────── -->
 <section class="hero" id="home" aria-labelledby="heroHeading">
+  <div class="hero-overlay" aria-hidden="true"></div>
   <div class="hero-content">
     <div class="hero-magazine-tag" aria-hidden="true">&#10022; Sacred Healing &nbsp;&middot;&nbsp; East London</div>
     <h1 id="heroHeading">
@@ -1105,48 +812,40 @@ footer::before {
   <div class="hero-watermark" aria-hidden="true">S</div>
 </section>
 
-<!-- Tiger stripe divider -->
-<div class="tiger-stripe-lg" aria-hidden="true"></div>
+<!-- Dividers -->
+<div class="tiger-band" aria-hidden="true"></div>
+<div class="leopard-band" aria-hidden="true"></div>
 
-<!-- Leopard Band -->
-<div class="leopard-band" role="presentation" aria-hidden="true"></div>
-
-<!-- Editorial Strip -->
+<!-- Editorial strip -->
 <div class="editorial-strip" aria-label="Services overview">
   <div class="editorial-items">
     <span class="editorial-item">Healing Massage from R350</span>
     <span class="editorial-item">Card Readings R300</span>
-    <span class="editorial-item">Healing Consultations R250</span>
-    <span class="editorial-item">PayFast Secure Payments</span>
-    <span class="editorial-item">By Appointment</span>
+    <span class="editorial-item">Consultations R250</span>
+    <span class="editorial-item">Secure PayFast Payments</span>
+    <span class="editorial-item">East London · By Appointment</span>
   </div>
 </div>
 
-<!-- Tiger stripe divider -->
-<div class="tiger-stripe-sm" aria-hidden="true"></div>
+<div class="tiger-band-sm" aria-hidden="true"></div>
 
-<!-- ══════════════════════════════════
-     ABOUT SECTION
-     ══════════════════════════════════ -->
+<!-- ─────────────────── ABOUT ─────────────────── -->
 <section id="about" aria-labelledby="aboutHeading">
   <div class="about-section">
     <div class="about-image-wrap">
-      <!-- Leopard print sidebar bar -->
-      <div class="about-leopard-bar leopard-sidebar" aria-hidden="true"></div>
-
-      <div class="about-image-box" role="img" aria-label="Portrait placeholder for Linda Mona">
+      <div class="about-leopard-bar" aria-hidden="true"></div>
+      <div class="about-image-box" role="img" aria-label="Photo of Linda Mona coming soon">
         <div class="about-img-caption">
-          <p>Linda Mona &middot; Gifted Healer &middot; East London</p>
+          <p>Linda Mona &middot; Gifted Healer &middot; Photo Coming Soon</p>
         </div>
       </div>
-      <!-- Corner frame decorations -->
       <div class="fc tl" aria-hidden="true"></div>
       <div class="fc tr" aria-hidden="true"></div>
       <div class="fc bl" aria-hidden="true"></div>
       <div class="fc br" aria-hidden="true"></div>
     </div>
 
-    <div class="about-content">
+    <div>
       <div class="section-label">The Healer</div>
       <h2 class="section-title" id="aboutHeading">Meet Linda Mona,<br><em>Your Guide to Wholeness</em></h2>
       <p class="section-body">
@@ -1155,9 +854,7 @@ footer::before {
       <p class="section-body">
         At Songo Healing Sanctuary, Linda creates a sacred container where your body, mind, and spirit are met with deep reverence. Each session is uniquely attuned to your energy, your story, and your need for restoration.
       </p>
-      <div class="gold-ornament" aria-hidden="true">
-        <span>&#10022;</span>
-      </div>
+      <div class="gold-ornament" aria-hidden="true"><span>&#10022;</span></div>
       <div class="about-pull-quote">
         <blockquote>
           "Healing is not something I do to you — it is something we discover together, in the sacred space between your pain and your possibility."
@@ -1168,25 +865,21 @@ footer::before {
   </div>
 </section>
 
-<!-- Tiger + Leopard dividers -->
-<div class="tiger-stripe-sm" aria-hidden="true"></div>
-<div class="leopard-band" aria-hidden="true"></div>
-<div class="tiger-stripe-sm" aria-hidden="true"></div>
+<div class="leopard-band-sm" aria-hidden="true"></div>
+<div class="tiger-band-sm" aria-hidden="true"></div>
+<div class="leopard-band-sm" aria-hidden="true"></div>
 
-<!-- ══════════════════════════════════
-     SERVICES SECTION
-     ══════════════════════════════════ -->
+<!-- ─────────────────── SERVICES ─────────────────── -->
 <section class="services-section" id="services" aria-labelledby="servicesHeading">
   <div class="services-header">
     <div class="section-label" style="justify-content:center;">Sacred Offerings</div>
-    <h2 class="section-title" id="servicesHeading" style="color:var(--gold-light);">Healing Services</h2>
+    <h2 class="section-title" id="servicesHeading">Healing Services</h2>
     <p style="color:var(--beige-dark);font-size:1.1rem;line-height:1.9;max-width:520px;margin:0 auto;">
       Each offering is a carefully held experience, designed to meet you exactly where you are.
     </p>
   </div>
 
   <div class="services-grid">
-
     <article class="service-card">
       <div class="service-issue">Feature Service</div>
       <span class="service-icon" aria-hidden="true">&#127807;</span>
@@ -1194,7 +887,7 @@ footer::before {
       <div class="service-duration">30 Minutes</div>
       <p class="service-desc">A focused healing session that releases tension, clears stagnant energy, and leaves you feeling lighter and more aligned. Perfect for a mid-week reset.</p>
       <div class="service-price"><span>R</span>350</div>
-      <button class="service-book-btn" onclick="openBooking('30 Min Healing Massage', 350)" aria-label="Book 30 minute healing massage for R350">Book This Session</button>
+      <button class="service-book-btn" onclick="openBooking('30 Min Healing Massage', 350)">Book This Session</button>
     </article>
 
     <article class="service-card">
@@ -1204,7 +897,7 @@ footer::before {
       <div class="service-duration">45 Minutes</div>
       <p class="service-desc">A deeper, more immersive healing journey. Linda works intuitively with your body's wisdom to release deeply held patterns and restore your natural vitality.</p>
       <div class="service-price"><span>R</span>500</div>
-      <button class="service-book-btn" onclick="openBooking('45 Min Healing Massage Experience', 500)" aria-label="Book 45 minute healing massage for R500">Book This Session</button>
+      <button class="service-book-btn" onclick="openBooking('45 Min Healing Massage Experience', 500)">Book This Session</button>
     </article>
 
     <article class="service-card">
@@ -1214,7 +907,7 @@ footer::before {
       <div class="service-duration">Intuitive Session</div>
       <p class="service-desc">Gain clarity on your path, your relationships, and your purpose. Linda's intuitive card readings offer profound insights and gentle guidance from the universe.</p>
       <div class="service-price"><span>R</span>300</div>
-      <button class="service-book-btn" onclick="openBooking('Card Reading', 300)" aria-label="Book a card reading for R300">Book This Session</button>
+      <button class="service-book-btn" onclick="openBooking('Card Reading', 300)">Book This Session</button>
     </article>
 
     <article class="service-card">
@@ -1224,37 +917,30 @@ footer::before {
       <div class="service-duration">Personalised Session</div>
       <p class="service-desc">A sacred one-on-one conversation with Linda to understand your unique healing needs and create a personalised healing pathway just for you.</p>
       <div class="service-price"><span>R</span>250</div>
-      <button class="service-book-btn" onclick="openBooking('Healing Consultation', 250)" aria-label="Book a healing consultation for R250">Book This Session</button>
+      <button class="service-book-btn" onclick="openBooking('Healing Consultation', 250)">Book This Session</button>
     </article>
-
   </div>
 </section>
 
-<!-- Tiger + Leopard dividers -->
-<div class="tiger-stripe-lg" aria-hidden="true"></div>
+<div class="tiger-band" aria-hidden="true"></div>
 <div class="leopard-band" aria-hidden="true"></div>
-<div class="tiger-stripe-lg" aria-hidden="true"></div>
+<div class="tiger-band" aria-hidden="true"></div>
 
-<!-- ══════════════════════════════════
-     TESTIMONIALS
-     ══════════════════════════════════ -->
+<!-- ─────────────────── TESTIMONIALS ─────────────────── -->
 <section class="testimonials-section" id="testimonials" aria-labelledby="testimonialsHeading">
   <div class="testimonials-header">
     <div class="section-label" style="justify-content:center;">Client Experiences</div>
-    <h2 class="section-title" id="testimonialsHeading" style="color:var(--gold-light);text-align:center;">What Clients Say</h2>
+    <h2 class="section-title" id="testimonialsHeading" style="text-align:center;">What Clients Say</h2>
   </div>
-
   <div class="testimonials-grid">
     <article class="testimonial-card">
       <p class="testimonial-text">"After just one session with Linda, I felt like years of pain had simply lifted. She has a gift that is truly beyond words — a sacred presence that holds you completely."</p>
       <div class="testimonial-author">Nomvula T., East London</div>
     </article>
-
     <article class="testimonial-card">
       <p class="testimonial-text">"Linda's card reading gave me clarity I hadn't felt in years. It was like she looked right into my soul and reflected back exactly what I needed to hear."</p>
       <div class="testimonial-author">Zanele M., East London</div>
     </article>
-
     <article class="testimonial-card">
       <p class="testimonial-text">"The 45-minute massage was the most transformative experience I've had. I left feeling grounded, lighter and deeply at peace. I will keep coming back."</p>
       <div class="testimonial-author">Thandi K., Eastern Cape</div>
@@ -1262,21 +948,18 @@ footer::before {
   </div>
 </section>
 
-<!-- Tiger + Leopard dividers -->
-<div class="tiger-stripe-sm" aria-hidden="true"></div>
+<div class="tiger-band-sm" aria-hidden="true"></div>
 <div class="leopard-band" aria-hidden="true"></div>
-<div class="tiger-stripe-sm" aria-hidden="true"></div>
+<div class="tiger-band-sm" aria-hidden="true"></div>
 
-<!-- ══════════════════════════════════
-     BOOKING + PAYFAST
-     ══════════════════════════════════ -->
+<!-- ─────────────────── BOOKING ─────────────────── -->
 <section class="booking-section" id="booking" aria-labelledby="bookingHeading">
   <div class="booking-wrapper">
     <div class="booking-header">
       <div class="section-label" style="justify-content:center;margin-bottom:14px;">Reserve Your Space</div>
-      <h2 class="section-title" id="bookingHeading" style="color:var(--gold-light);">Book a Session</h2>
+      <h2 class="section-title" id="bookingHeading">Book a Session</h2>
       <p style="color:var(--beige-dark);font-size:1.05rem;line-height:1.85;max-width:500px;margin:0 auto;">
-        Complete the form below to secure your healing session with Linda. Payment is processed safely and securely via PayFast.
+        Complete the form below to secure your healing session. Payment is processed safely via PayFast.
       </p>
     </div>
 
@@ -1315,15 +998,9 @@ footer::before {
         <label for="time">Preferred Time *</label>
         <select id="time" name="time" required>
           <option value="">— Choose a time —</option>
-          <option>08:00 AM</option>
-          <option>09:00 AM</option>
-          <option>10:00 AM</option>
-          <option>11:00 AM</option>
-          <option>12:00 PM</option>
-          <option>01:00 PM</option>
-          <option>02:00 PM</option>
-          <option>03:00 PM</option>
-          <option>04:00 PM</option>
+          <option>08:00 AM</option><option>09:00 AM</option><option>10:00 AM</option>
+          <option>11:00 AM</option><option>12:00 PM</option><option>01:00 PM</option>
+          <option>02:00 PM</option><option>03:00 PM</option><option>04:00 PM</option>
           <option>05:00 PM</option>
         </select>
       </div>
@@ -1351,40 +1028,30 @@ footer::before {
           <span id="summaryService">No service selected</span>
           <span id="summaryPrice">—</span>
         </div>
-        <div class="payment-row">
-          <span>Booking fee</span>
-          <span>Included</span>
-        </div>
+        <div class="payment-row"><span>Booking fee</span><span>Included</span></div>
         <div class="payment-row total">
           <span>Total Due</span>
           <span id="summaryTotal">R —</span>
         </div>
       </div>
       <div class="payfast-badge">
-        <span class="payfast-badge-text">&#128274; Secure payment powered by <strong>PayFast</strong> &mdash; South Africa&rsquo;s trusted payment gateway</span>
+        <p class="payfast-badge-text">&#128274; Secure payment powered by <strong>PayFast</strong> &mdash; South Africa&rsquo;s trusted payment gateway</p>
       </div>
-      <button class="submit-btn" onclick="processBooking()" type="button">
-        Confirm &amp; Pay with PayFast &#8594;
-      </button>
+      <button class="submit-btn" onclick="processBooking()" type="button">Confirm &amp; Pay with PayFast &#8594;</button>
     </div>
   </div>
 </section>
 
-<!-- Tiger stripe before footer -->
-<div class="tiger-stripe-lg" aria-hidden="true"></div>
+<div class="tiger-band" aria-hidden="true"></div>
 <div class="leopard-band" aria-hidden="true"></div>
 
-<!-- ══════════════════════════════════
-     FOOTER
-     ══════════════════════════════════ -->
+<!-- ─────────────────── FOOTER ─────────────────── -->
 <footer id="contact">
   <div class="footer-grid">
     <div>
       <div class="footer-brand">Songo Healing Sanctuary</div>
       <p class="footer-tagline">A sacred space of traditional healing, feminine wisdom and deep restoration — in the heart of East London, South Africa.</p>
-      <p style="font-family:'Josefin Sans',sans-serif;font-size:0.54rem;letter-spacing:3px;color:rgba(212,196,168,0.45);text-transform:uppercase;">
-        Traditional Healer &nbsp;&middot;&nbsp; Linda Mona
-      </p>
+      <p style="font-family:'Josefin Sans',sans-serif;font-size:0.54rem;letter-spacing:3px;color:rgba(212,196,168,0.4);text-transform:uppercase;">Traditional Healer &nbsp;&middot;&nbsp; Linda Mona</p>
     </div>
     <div>
       <div class="footer-col-title">Quick Links</div>
@@ -1420,7 +1087,7 @@ footer::before {
   </div>
   <div class="footer-bottom">
     <div class="footer-copy">&copy; 2025 Songo Healing Sanctuary &middot; Linda Mona &middot; All Rights Reserved</div>
-    <div class="footer-social" aria-label="Social media links">
+    <div class="footer-social" aria-label="Social media">
       <a href="#" class="social-btn" aria-label="Facebook">f</a>
       <a href="#" class="social-btn" aria-label="Instagram">in</a>
       <a href="#" class="social-btn" aria-label="TikTok">&#9654;</a>
@@ -1428,9 +1095,7 @@ footer::before {
   </div>
 </footer>
 
-<!-- ══════════════════════════════════
-     BOOKING CONFIRMATION MODAL
-     ══════════════════════════════════ -->
+<!-- Modal -->
 <div class="modal-overlay" id="successModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
   <div class="modal">
     <button class="modal-close" onclick="closeModal()" aria-label="Close">&#x2715;</button>
@@ -1438,21 +1103,19 @@ footer::before {
     <h3 id="modalTitle">Booking Received</h3>
     <p class="modal-sub">
       Thank you, <strong id="modalName"></strong>. Your healing session with Linda has been received.<br><br>
-      You will now be redirected to PayFast to complete your secure payment. Once payment is confirmed, Linda will personally reach out to confirm your appointment details.
+      You will now be redirected to PayFast to complete your secure payment. Once confirmed, Linda will personally reach out to confirm your appointment.
     </p>
     <button class="submit-btn" onclick="redirectToPayFast()" type="button">Continue to PayFast &#8594;</button>
   </div>
 </div>
 
 <script>
-  /* ── Custom Cursor ── */
+  /* ── Cursor ── */
   const cursor = document.getElementById('cursor');
   const dot = document.getElementById('cursorDot');
   document.addEventListener('mousemove', e => {
-    cursor.style.left = e.clientX + 'px';
-    cursor.style.top = e.clientY + 'px';
-    dot.style.left = e.clientX + 'px';
-    dot.style.top = e.clientY + 'px';
+    cursor.style.left = e.clientX + 'px'; cursor.style.top = e.clientY + 'px';
+    dot.style.left = e.clientX + 'px'; dot.style.top = e.clientY + 'px';
   });
   document.querySelectorAll('a, button, select, input, textarea').forEach(el => {
     el.addEventListener('mouseenter', () => cursor.style.transform = 'translate(-50%,-50%) scale(1.8)');
@@ -1471,19 +1134,16 @@ footer::before {
     document.body.style.overflow = '';
   }
 
-  /* ── Set min booking date to today ── */
-  const dateInput = document.getElementById('date');
-  const today = new Date().toISOString().split('T')[0];
-  dateInput.min = today;
+  /* ── Min booking date ── */
+  document.getElementById('date').min = new Date().toISOString().split('T')[0];
 
-  /* ── Service price data ── */
+  /* ── Services ── */
   const services = {
     '30 Min Healing Massage|350':            { name: '30 Min Healing Massage',            price: 350 },
     '45 Min Healing Massage Experience|500': { name: '45 Min Healing Massage Experience', price: 500 },
     'Card Reading|300':                      { name: 'Card Reading',                      price: 300 },
-    'Healing Consultation|250':             { name: 'Healing Consultation',              price: 250 }
+    'Healing Consultation|250':              { name: 'Healing Consultation',              price: 250 }
   };
-
   let selectedService = null;
 
   function updatePrice() {
@@ -1501,144 +1161,84 @@ footer::before {
     }
   }
 
-  function openBooking(serviceName, price) {
+  function openBooking(name, price) {
     document.getElementById('booking').scrollIntoView({ behavior: 'smooth' });
     setTimeout(() => {
-      const key = serviceName + '|' + price;
-      document.getElementById('service').value = key;
+      document.getElementById('service').value = name + '|' + price;
       updatePrice();
     }, 600);
   }
 
   function processBooking() {
-    const firstName = document.getElementById('firstName').value.trim();
-    const lastName  = document.getElementById('lastName').value.trim();
-    const email     = document.getElementById('email').value.trim();
-    const phone     = document.getElementById('phone').value.trim();
-    const service   = document.getElementById('service').value;
-    const date      = document.getElementById('date').value;
-    const time      = document.getElementById('time').value;
-
-    if (!firstName || !lastName || !email || !phone || !service || !date || !time) {
+    const f = id => document.getElementById(id).value.trim();
+    if (!f('firstName') || !f('lastName') || !f('email') || !f('phone') ||
+        !document.getElementById('service').value || !f('date') || !document.getElementById('time').value) {
       alert('Please complete all required fields before proceeding to payment.');
       return;
     }
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(f('email'))) {
       alert('Please enter a valid email address.');
       return;
     }
-
-    document.getElementById('modalName').textContent = firstName + ' ' + lastName;
+    document.getElementById('modalName').textContent = f('firstName') + ' ' + f('lastName');
     document.getElementById('successModal').classList.add('active');
   }
 
-  function closeModal() {
-    document.getElementById('successModal').classList.remove('active');
-  }
+  function closeModal() { document.getElementById('successModal').classList.remove('active'); }
 
   function redirectToPayFast() {
     if (!selectedService) return;
-
-    const firstName = document.getElementById('firstName').value.trim();
-    const lastName  = document.getElementById('lastName').value.trim();
-    const email     = document.getElementById('email').value.trim();
-    const date      = document.getElementById('date').value;
-    const time      = document.getElementById('time').value;
-    const notes     = document.getElementById('notes').value.trim();
+    const f = id => document.getElementById(id).value.trim();
 
     /*
      * ── PAYFAST CREDENTIALS ──
-     * Replace the values below with your real PayFast credentials.
-     * Get them from: https://www.payfast.co.za/merchant/settings
-     *
-     * For testing, use sandbox credentials and the sandbox URL below.
-     * For live payments, use your live credentials and the live URL.
+     * Replace with your real credentials from payfast.co.za/merchant/settings
+     * Switch PAYFAST_URL to the live URL when going live.
      */
-    const MERCHANT_ID  = 'YOUR_MERCHANT_ID';   // e.g. '10000100'
-    const MERCHANT_KEY = 'YOUR_MERCHANT_KEY';  // e.g. 'q1cd2rdny4a53'
-    // const PASSPHRASE = 'YOUR_PASSPHRASE';   // Optional but recommended for security
+    const MERCHANT_ID  = 'YOUR_MERCHANT_ID';
+    const MERCHANT_KEY = 'YOUR_MERCHANT_KEY';
+    const PAYFAST_URL  = 'https://sandbox.payfast.co.za/eng/process'; // → change to https://www.payfast.co.za/eng/process for live
 
-    // Sandbox URL for testing:
-    const PAYFAST_URL = 'https://sandbox.payfast.co.za/eng/process';
-    // Live URL for production (uncomment when going live):
-    // const PAYFAST_URL = 'https://www.payfast.co.za/eng/process';
-
-    const itemDescription = [
-      'Booking: ' + selectedService.name,
-      'Date: ' + date,
-      'Time: ' + time,
-      notes ? 'Notes: ' + notes.substring(0, 100) : ''
-    ].filter(Boolean).join(' | ');
+    const description = ('Booking: ' + selectedService.name + ' | Date: ' + f('date') + ' | Time: ' + document.getElementById('time').value).substring(0, 255);
 
     const fields = {
-      merchant_id:      MERCHANT_ID,
-      merchant_key:     MERCHANT_KEY,
-      return_url:       window.location.origin + '/booking-success.html',
-      cancel_url:       window.location.origin + '/booking-cancelled.html',
-      notify_url:       'https://www.songohealingsanctuary.co.za/payfast-notify',
-      name_first:       firstName,
-      name_last:        lastName,
-      email_address:    email,
-      amount:           selectedService.price.toFixed(2),
-      item_name:        'Songo Healing Sanctuary – ' + selectedService.name,
-      item_description: itemDescription.substring(0, 255),
-      payment_method:   'cc',
-      email_confirmation: '1',
-      confirmation_address: email
+      merchant_id: MERCHANT_ID, merchant_key: MERCHANT_KEY,
+      return_url: window.location.origin + '/booking-success.html',
+      cancel_url: window.location.origin + '/booking-cancelled.html',
+      notify_url: 'https://www.songohealingsanctuary.co.za/payfast-notify',
+      name_first: f('firstName'), name_last: f('lastName'), email_address: f('email'),
+      amount: selectedService.price.toFixed(2),
+      item_name: 'Songo Healing Sanctuary – ' + selectedService.name,
+      item_description: description,
+      email_confirmation: '1', confirmation_address: f('email')
     };
 
     const form = document.createElement('form');
-    form.method = 'POST';
-    form.action = PAYFAST_URL;
-
-    Object.entries(fields).forEach(([key, val]) => {
-      const input = document.createElement('input');
-      input.type = 'hidden';
-      input.name = key;
-      input.value = val;
-      form.appendChild(input);
+    form.method = 'POST'; form.action = PAYFAST_URL;
+    Object.entries(fields).forEach(([k, v]) => {
+      const i = document.createElement('input');
+      i.type = 'hidden'; i.name = k; i.value = v;
+      form.appendChild(i);
     });
-
     document.body.appendChild(form);
     form.submit();
   }
 
-  /* Close modal on backdrop click */
-  document.getElementById('successModal').addEventListener('click', function(e) {
-    if (e.target === this) closeModal();
-  });
-
-  /* Close mobile menu on Escape */
-  document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') { closeModal(); closeMobileMenu(); }
-  });
+  document.getElementById('successModal').addEventListener('click', e => { if (e.target === e.currentTarget) closeModal(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeModal(); closeMobileMenu(); } });
 
   /* ── Scroll Reveal ── */
   if ('IntersectionObserver' in window) {
-    const revealObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.style.opacity = '1';
-          entry.target.style.transform = 'translateY(0)';
-          revealObserver.unobserve(entry.target);
-        }
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.style.opacity = '1'; e.target.style.transform = 'translateY(0)'; obs.unobserve(e.target); }
       });
-    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
-
-    document.querySelectorAll('.service-card, .testimonial-card').forEach(el => {
-      el.style.opacity = '0';
-      el.style.transform = 'translateY(28px)';
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.service-card, .testimonial-card, .about-section').forEach(el => {
+      el.style.opacity = '0'; el.style.transform = 'translateY(28px)';
       el.style.transition = 'opacity 0.75s ease, transform 0.75s ease';
-      revealObserver.observe(el);
+      obs.observe(el);
     });
-
-    const aboutEl = document.querySelector('.about-section');
-    if (aboutEl) {
-      aboutEl.style.opacity = '0';
-      aboutEl.style.transform = 'translateY(22px)';
-      aboutEl.style.transition = 'opacity 0.9s ease, transform 0.9s ease';
-      revealObserver.observe(aboutEl);
-    }
   }
 </script>
 </body>
